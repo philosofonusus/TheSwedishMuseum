@@ -1,0 +1,49 @@
+@import 'mainTheme';
+@import 'mixins';
+
+.about{
+  padding: 150px 0 50px 0;
+  background-color: $prim_bg_color;
+}
+.about__landscape{
+  margin-bottom: 40px;
+  width: 100%;
+}
+.about__lyric{
+  @include ttl(800, 4.375vw, 55vw, $prim_color1);
+  font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;
+  letter-spacing: normal;
+}
+.about__text {
+  max-width: 40rem;
+  width: 71.5rem;
+  margin: 0 auto;
+  box-sizing: inherit;
+  -webkit-font-smoothing: antialiased;
+  word-break: break-word;
+  p {
+    text-align: left;
+    line-height: 1.476;
+    color: black;
+    font-size: 1.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    letter-spacing: normal;
+    margin-bottom: 1.25rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
+}
+.about__text::first-letter {
+  color: #cd2653;
+  font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 6rem;
+  font-weight: 800;
+  float: left;
+  line-height: .68;
+  text-transform: uppercase;
+  font-style: normal;
+  margin: 0.05em 0.1em 0 0;
+}

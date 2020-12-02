@@ -1,0 +1,32 @@
+.navbar{
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2.4rem;
+  p {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    color: grey;
+  }
+  a {
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: black;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+.pages a{
+  font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 0 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #CD2653;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 20px;
+}

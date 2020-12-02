@@ -1,0 +1,13 @@
+@mixin ttl($weight, $size, $max-width, $color: black){
+  font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: $weight;
+  color: $color;
+  text-align: center;
+  font-size: $size;
+  line-height: 1.25;
+  letter-spacing: -0.0415625em;
+  font-feature-settings: "lnum";
+  margin: 3.5rem auto 2rem;
+  font-variant-numeric: lining-nums;
+  max-width: $max-width;
+}

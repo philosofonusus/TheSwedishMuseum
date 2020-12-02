@@ -1,0 +1,19 @@
+@import 'mainTheme';
+@import "mixins";
+
+.container{
+    margin: 150px auto 0 0;
+}
+.container__entry{
+    background: linear-gradient(to bottom, white 50%, $prim_bg_color 50%)
+}
+.container__title{
+    @include ttl(700, 6.250vw, 78.125vw);
+}
+
+.container__landscape{
+    margin: 0 auto;
+    max-width: 100vw;
+    height: auto;
+    display: block;
+}

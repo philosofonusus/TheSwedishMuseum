@@ -1,0 +1,60 @@
+@import 'mainTheme';
+@import 'mixins';
+
+
+.plan{
+  margin-top: -60px;
+  background-color: $prim_bg_color;
+  padding: 20px;
+}
+.plan__title{
+  word-break: break-word;
+  padding: 60px;
+  @include ttl(600, 4.750vw, 57.500vw)
+}
+.plan__grid {
+  padding: 0 1vw 0 1vw;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3.3vw;
+}
+.plan__grid img{
+  max-width: 100%;
+  height: auto;
+}
+.plan__grid h3{
+  font-weight: 900;
+  font-size: 3.125vw;
+  letter-spacing: -0.0415625em;
+  font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: left;
+
+}
+.plan__grid p{
+  margin-top: -16px;
+  font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 21px;
+}
+.plan__grid button{
+  margin-top: 13px;
+  color: $prim_color1;
+  font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: calc(1.1em - 0.2rem) calc(1.66em - 0.2rem);
+  border-radius: 0;
+  border: 2px solid $prim_color1;
+  background-color: transparent;
+  font-weight: 600;
+  letter-spacing: 0.0333em;
+  line-height: 1.25;
+  opacity: 1;
+  cursor: pointer;
+  text-align: center;
+  transition: opacity 0.15s linear;
+  overflow-wrap: break-word;
+  font-size: 1rem;
+}
